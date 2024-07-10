@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opiniones - Restaurante San Isidro</title>
+    <link rel="stylesheet" href="style_calificación.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="Logo" class="logo">
+    </header>
+    <nav>
+        <a href="index.html" >Inicio</a>
+        <a href="Carta.html" >Carta</a>
+        <a href="reservaciones.html" >Reservaciones</a>
+        <a href="Calificación.html" class="activo">Reseñas</a>
+        <a href="eventos.html" >Eventos</a>
+    </nav>
+    <div class="container">
+        <h2>Calificación</h2>
+        <p>Estimado cliente, califíquenos dándonos su opinión y valoración según su experiencia en nuestro restaurante - San Isidro.</p>
+        <form id="calificacionForm" action="guardar_comentario.php" method="POST">
+            <label for="review">Tu opinión:</label>
+            <textarea id="review" name="review" rows="4" required></textarea>
+            
+            <label for="rating">Valoración (1-5):</label>
+            <input type="number" id="rating" name="rating" min="1" max="5" required>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <!-- Elemento donde se mostrará la alerta -->
+        <p id="alertaCalificacion" style="display: none;"></p>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="footer-contenedor">
+                <img src="img/logo.png" alt="Logo" class="log">  
+                <div class="footer-row">          
+                    <div class="links-footer">
+                        <h3>Contactanos</h3>
+                        <a href="https://www.facebook.com/RestauranteSanIsidroIca">Facebook</a><br>
+                        <a href="https://wa.link/cfx17w">WhatsApp</a><br>
+                    </div>
+                    <div class="links-footer">
+                        <h3>Nosotros</h3>
+                        <a href="https://www.facebook.com/RestauranteSanIsidroIca">Mision</a><br>
+                        <a href="https://wa.link/cfx17w">Vision</a><br>
+                        <a href="https://wa.link/cfx17w">Politica de privacidad</a><br>
+                        <a href="https://wa.link/cfx17w">Recursos</a><br>
+                    </div>
+                    <div class="links-footer">
+                        <h3>Atención:</h3>
+                        <p>Lunes-Sábado: 10:00 am - 11:00 pm</p>
+                        <p>Domingo: 10:00 am - 9:00 pm</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script JavaScript para manejar el envío del formulario y la respuesta -->
+    <script src="js/calificacion.js"></script>
+</body>
+</html>
+
+
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservaciones - Restaurante San Isidro</title>
+    <link rel="stylesheet" href="style_reservaciones.css">
+    <script src="js/confirmacionreserva.js"></script>
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="Logo" class="logo">
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="Carta.html">Carta</a>
+        <a href="reservaciones.html" class="activo">Reservaciones</a>
+        <a href="Calificación.html">Reseñas</a>
+        <a href="eventos.html">Eventos</a>
+    </nav>
+    <div class="container">
+        <h2>Reservaciones</h2>
+        <!-- Formulario de reservación -->
+        <form action="procesar_reservacion.php" method="post" onsubmit="return confirmacionReserva()">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="date">Fecha:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <label for="time">Hora:</label>
+            <input type="time" id="time" name="time" required>
+            
+            <label for="guests">Número de personas:</label>
+            <input type="number" id="guests" name="guests" required>
+            
+            <button type="submit" name="reservar">Reservar</button>
+        </form>
+        <!-- Elemento donde se mostrará la alerta -->
+        <div id="alertaReserva" style="display: none;"></div>
+    </div>
+</body>
+<footer>
+    <!-- Pie de página -->
+    <div class="footer">
+        <div class="footer-contenedor"></div>
+        <!-- Logo en el pie de página -->
+        <img src="img/logo.png" alt="Logo" class="log">  
+            <div class="footer-row">          
+            <!-- Información de contacto -->
+                <div class="links-footer">
+                    <h3>Contactanos</h3>
+                        <a href="https://www.facebook.com/RestauranteSanIsidroIca">Facebook</a><br>
+                        <a href="https://wa.link/cfx17w">WhatsApp</a><br>
+                </div>
+
+                <div class="links-footer">
+                    <h3>Nosotros</h3>
+                        <a href="https://www.facebook.com/RestauranteSanIsidroIca">Mision</a><br>
+                        <a href="https://wa.link/cfx17w">Vision</a><br>
+                        <a href="https://wa.link/cfx17w">Politica de privacidad</a><br>
+                        <a href="https://wa.link/cfx17w">Recursos</a><br>
+                </div>
+             <!-- Horarios de atención -->
+                <div class="links-footer">
+                    <h3>Atención:</h3>
+                    <p>Lunes-Sabado: 10:00 am - 11:00 pm</p>
+                    <p>Domingo: 10:00 am - 9:00 pm</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>

@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('fonts/MyriadPro-Regular.woff2') format('woff2'),
+         url('fonts/MyriadPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'Cascadia Mono Light', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2a2a2a;
+    color: #000000;
+}
+
+/* Estilo del encabezado */
+header {
+    background-image: url(img/encambezado.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #1b1d1b;
+    padding: 0px 0;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Estilo del logo */
+.logo {
+    max-width: 271.4735px; 
+    max-height: 259.2px;
+}
+
+/* Estilo del menú de navegación */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    padding: 15px 0;
+}
+
+/* Estilo de los enlaces del menú de navegación */
+nav a {
+    font-family: 'Myriad Pro', sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 15px;
+    margin: 0 10px;
+    font-size: 1.1em;
+    flex-grow: 1;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    transform: scale(1.05);
+    box-sizing: border-box;
+    position: relative;
+}
+/* Estilo del enlace activo del menú de navegación */
+nav a.activo {
+    color: #C0392B;
+    font-weight: bold;
+}
+
+/* Añade un rectángulo debajo del enlace activo */
+nav a.activo::after {
+    content: '';
+    position: absolute;
+    bottom: -10px; /* Ajusta según sea necesario */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 208px; /* Ancho del rectángulo */
+    height: 4px; /* Altura del rectángulo */
+    background-color: #C0392B; /* Color del rectángulo */
+}
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h2 {
+    color: #7b3030;
+    margin-bottom: 20px;
+    font-size: 2em;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    align-self: flex-start;
+}
+
+form input, form button {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+/* Estilo del pie de página */
+.footer {
+    background-color: #000000;
+    color: white;
+    padding: 40px;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+/* Estilo de los enlaces en el pie de página */
+.footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none; /* Asegura que los enlaces no tengan subrayado */
+}
+
+.links-footer {
+    width: 20%;
+    padding: 0 15px;
+}
+
+.links-footer ul li a {
+    text-decoration: none; /* Asegura que los enlaces dentro de la lista no tengan subrayado */
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+/* Estilo de los logos en el pie de página */
+.log {
+    float: left;
+    max-width: 150px; 
+    max-height: auto;
+}

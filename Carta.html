@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta - Restaurante San Isidro</title>
+    <link rel="stylesheet" href="style_carta.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="Logo" class="logo">
+    </header>
+    <nav>
+        <a href="index.html" >Inicio</a>
+        <a href="Carta.html" class="activo">Carta</a>
+        <a href="reservaciones.html">Reservaciones</a>
+        <a href="Calificación.html">Reseñas</a>
+        <a href="eventos.html">Eventos</a>
+    </nav>
+        <nav class="cartanavegador">
+            <a href="#entradas">Entradas</a>
+            <a href="#sopas">Sopas</a>
+            <a href="#pollos">Pollos</a>
+            <a href="#carnes">Carnes</a>
+            <a href="#postres">Postres</a>
+            <a href="#bebidas">Bebidas</a>
+            <a href="#cocteles">Cócteles</a>
+        </nav>
+    </header>
+    <!-- Contenido del menú -->
+    <div class="menu-container">
+        <!-- Entradas -->
+        <h2 id="entradas">ENTRADAS</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="1 Ensalada mixta con palta" data-price="24.00">+</button>
+                </div>
+                <img src="carta/ensaladapaltamixta.jpg" alt="Ensalada mixta con palta">
+                <div>
+                    <h3>Ensalada mixta con palta</h3>
+                    <p>S/. 24.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="1 Ensalada Mixta" data-price="21.00">+</button>
+                </div>
+                <img src="carta/ensaladamixta.jpeg" alt="Ensalada mixta">
+                <div>
+                    <h3>Ensalada mixta</h3>
+                    <p>S/. 21.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="1 Palta a la reina" data-price="24.00">+</button>
+                </div>
+                <img src="carta/paltalareina.jpg" alt="Palta a la reina">
+                <div>
+                    <h3>Palta a la reina</h3>
+                    <p>S/. 24.00</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sopas -->
+        <h2 id="sopas">SOPAS</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="1 Caldito de huevo" data-price="22.00">+</button>
+                </div>
+                <img src="carta/calditodehuevo.jpg" alt="Caldito de huevo">
+                <div>
+                    <h3>Caldito de huevo</h3>
+                    <p>S/. 22.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="1 Sopa de pollo" data-price="22.00">+</button>
+                </div>
+                <img src="carta/sopapollo.jpg" alt="Sopa de pollo">
+                <div>
+                    <h3>Sopa de pollo</h3>
+                    <p>S/. 22.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="1 Sopa a la criolla" data-price="22.00">+</button>
+                </div>
+                <img src="carta/sopalacrioola.jpeg" alt="Sopa a la criolla">
+                <div>
+                    <h3>Sopa a la criolla</h3>
+                    <p>S/. 22.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="1 Sustancia de res" data-price="22.00">+</button>
+                </div>
+                <img src="carta/sustancciares.jpg" alt="Sustancia de res">
+                <div>
+                    <h3>Sustancia de res</h3>
+                    <p>S/. 22.00</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pollos -->
+        <h2 id="pollos">POLLOS</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="1 Pollo a la brasa con pappitas fritas" data-price="75.00">+</button>
+                </div>
+                <img src="carta/1polloalabrasa.jpg" alt="1 Pollo a la brasa con papitas fritas">
+                <div>
+                    <h3>1 Pollo a la brasa con papitas fritas</h3>
+                    <p>S/. 75.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="1/2 Pollo a la brasa con papas fritas" data-price="38.00">+</button>
+                </div>
+                <img src="carta/12pollobrasa.jpeg" alt="1/2 Pollo a la brasa con papas fritas">
+                <div>
+                    <h3>1/2 Pollo a la brasa con papas fritas</h3>
+                    <p>S/. 38.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="1/4 Pollo a la brasa con papas fritas" data-price="24.00">+</button>
+                </div>
+                <img src="carta/14 polloalabrasa.jpeg" alt="1/4 Polo a la brasa con papas fritas">
+                <div>
+                    <h3>1/4 Pollo a la brasa con papas fritas</h3>
+                    <p>S/. 24.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="1 Chicharron de Pollo con papas" data-price="54.60">+</button>
+                </div>
+                <img src="carta/chicharronpollo.jpeg" alt="1 Chicharron de Pollo con papas">
+                <div>
+                    <h3>1 Chicharron de Pollo con papas</h3>
+                    <p>S/. 54.60</p>
+                </div>
+            </div>
+        <!-- Continua agregando items en el mismo formato para el resto de las categorías... -->
+        <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="1/2 Chicharron de Pollo con papas" data-price="28.00">+</button>
+                </div>
+                <img src="carta/12 Chicharron de Pollo con papas.jpeg" alt="1/2 Chicharron de Pollo con papas">
+                <div>
+                    <h3>1/2 Chicharron de Pollo con papas</h3>
+                    <p>S/. 28.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="1 Chicharron de Pollo sin hueso con papas" data-price="53.00">+</button>
+                </div>
+                <img src="carta/1 Chicharron de Pollo sin hueso con papas.jpg" alt="1 Chicharron de Pollo sin hueso con papas">
+                <div>
+                    <h3>1 Chicharron de Pollo sin hueso con papas</h3>
+                    <p>S/. 53.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="1 Chicharron de Molleja con papas" data-price="39.00">+</button>
+                </div>
+                <img src="carta/1 Chicharron de Molleja con papas.jpg" alt="1 Chicharron de Molleja con papas">
+                <div>
+                    <h3>1 Chicharron de Molleja con papas</h3>
+                    <p>S/. 39.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Suprema de pollo con papas" data-price="39.00">+</button>
+                </div>
+                <img src="carta/Suprema de pollo con papas.jpeg" alt="Suprema de pollo con papas">
+                <div>
+                    <h3>Suprema de pollo con papas</h3>
+                    <p>S/. 39.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Cordon Bleu" data-price="47.00">+</button>
+                </div>
+                <img src="carta/Cordon Bleu.jpg" alt="Cordon Bleu">
+                <div>
+                    <h3>Cordon Bleu</h3>
+                    <p>S/. 47.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Pechuga de pollo a la parrilla con papas" data-price="47.00">+</button>
+                </div>
+                <img src="carta/Pechuga de pollo a la parrilla con papas.jpg" alt="Pechuga de pollo a la parrilla con papas">
+                <div>
+                    <h3>Pechuga de pollo a la parrilla con papas</h3>
+                    <p>S/. 47.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Arroz chaufa de pollo" data-price="31.00">+</button>
+                </div>
+                <img src="carta/Arroz chaufa de pollo.jpg" alt="Arroz chaufa de pollo">
+                <div>
+                    <h3>Arroz chaufa de pollo</h3>
+                    <p>S/. 31.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Pollo saltado" data-price="30.00">+</button>
+                </div>
+                <img src="carta/Pollo saltado.jpg" alt="Pollo saltado">
+                <div>
+                    <h3>Pollo saltado</h3>
+                    <p>S/. 30.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Tortilla de Pollo" data-price="33.00">+</button>
+                </div>
+                <img src="carta/Tortilla de Pollo.jpeg" alt="Tortilla de Pollo">
+                <div>
+                    <h3>Tortilla de Pollo</h3>
+                    <p>S/. 33.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Tortilla de verduras" data-price="27.00">+</button>
+                </div>
+                <img src="carta/Tortilla de verduras.jpeg" alt="Tortilla de verduras">
+                <div>
+                    <h3>Tortilla de verduras</h3>
+                    <p>S/. 27.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Tallarin saltado de Pollo" data-price="25.00">+</button>
+                </div>
+                <img src="carta/Tallarin saltado de Pollo.jpg" alt="Tallarin saltado de Pollo">
+                <div>
+                    <h3>Tallarin saltado de Pollo</h3>
+                    <p>S/. 25.00</p>
+                </div>
+            </div>
+        </div>
+        <!-- Carnes-->
+        <h2 id="carnes">CARNES</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Parrillada familiar con papas fritas" data-price="145.00">+</button>
+                </div>
+                <img src="carta/Parrillada familiar con papas fritas.jpeg" alt="Parrillada familiar con papas fritas">
+                <div>
+                    <h3>Parrillada familiar con papas fritas</h3>
+                    <p>S/. 145.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Parrillada personal" data-price="80.00">+</button>
+                </div>
+                <img src="carta/Parrillada personal.jpeg" alt="Parrillada personal">
+                <div>
+                    <h3>Parrillada personal</h3>
+                    <p>S/. 80.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Anticucho de Lomo con papas" data-price="52.00">+</button>
+                </div>
+                <img src="carta/Anticucho de Lomo con papas.jpeg" alt="Anticucho de Lomo con papas">
+                <div>
+                    <h3>Anticucho de Lomo con papas</h3>
+                    <p>S/. 52.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="1 Lomo de a la parrilla" data-price="55.00">+</button>
+                </div>
+                <img src="carta/1 Lomo de a la parrilla.jpeg" alt="1 Lomo de a la parrilla">
+                <div>
+                    <h3>1 Lomo de a la parrilla</h3>
+                    <p>S/. 55.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="1 Bife a la parrilla" data-price="48.00">+</button>
+                </div>
+                <img src="carta/1 Bife a la parrilla.jpg" alt="1 Bife a la parrilla">
+                <div>
+                    <h3>1 Bife a la parrilla</h3>
+                    <p>S/. 48.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Chuleta de chancho a la Parrilla" data-price="39.00">+</button>
+                </div>
+                <img src="carta/Chuleta de chancho a la Parrilla.jpeg" alt="Chuleta de chancho a la Parrilla">
+                <div>
+                    <h3>Chuleta de chancho a la Parrilla</h3>
+                    <p>S/. 39.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Chorizo a la Parrilla con papas(2 unidadaes)" data-price="23.00">+</button>
+                </div>
+                <img src="carta/Chorizo a la Parrilla con papas(2 unidadaes).jpg" alt="Chorizo a la Parrilla con papas(2 unidadaes)">
+                <div>
+                    <h3>Chorizo a la Parrilla con papas(2 unidadaes)</h3>
+                    <p>S/. 23.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="1 Marucha a la Parrilla" data-price="46.00">+</button>
+                </div>
+                <img src="carta/1 Marucha a la Parrilla.jpg" alt="1 Marucha a la Parrilla">
+                <div>
+                    <h3>1 Marucha a la Parrilla</h3>
+                    <p>S/. 46.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Lomo a la americana" data-price="53.00">+</button>
+                </div>
+                <img src="carta/Lomo a la americana.jpeg" alt="Lomo a la americana">
+                <div>
+                    <h3>Lomo a la americana</h3>
+                    <p>S/. 53.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Lomo a la Pimienta" data-price="53.00">+</button>
+                </div>
+                <img src="carta/Lomo a la Pimienta.jpeg" alt="Lomo a la Pimienta">
+                <div>
+                    <h3>Lomo a la Pimienta</h3>
+                    <p>S/. 53.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Lomo al Ajo" data-price="53.00">+</button>
+                </div>
+                <img src="carta/Lomo al Ajo.jpeg" alt="Lomo al Ajo">
+                <div>
+                    <h3>Lomo al Ajo</h3>
+                    <p>S/. 53.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Lomo a la Parrilla con puré de papas" data-price="55.00">+</button>
+                </div>
+                <img src="carta/Lomo a la Parrilla con puré de papas.jpg" alt="Lomo a la Parrilla con puré de papas">
+                <div>
+                    <h3>Lomo a la Parrilla con puré de papas</h3>
+                    <p>S/. 55.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Arroz chaufa de res" data-price="31.00">+</button>
+                </div>
+                <img src="carta/Arroz chaufa de res.jpeg" alt="Arroz chaufa de res">
+                <div>
+                    <h3>Arroz chaufa de res</h3>
+                    <p>S/. 31.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Bisteck apanado con papas fritas" data-price="35.00">+</button>
+                </div>
+                <img src="carta/Bisteck apanado con papas fritas.jpeg" alt="Bisteck apanado con papas fritas">
+                <div>
+                    <h3>Bisteck apanado con papas fritas</h3>
+                    <p>S/. 35.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Lomo saltado(Lomo fino)" data-price="49.00">+</button>
+                </div>
+                <img src="carta/Lomo saltado(Lomo fino).jpg" alt="Lomo saltado(Lomo fino)">
+                <div>
+                    <h3>Lomo saltado(Lomo fino)</h3>
+                    <p>49.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Lomo saltado de res" data-price="34.00">+</button>
+                </div>
+                <img src="carta/Lomo saltado de res.jpg" alt="Lomo saltado de res">
+                <div>
+                    <h3>Lomo saltado de res</h3>
+                    <p>34.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Tallarin Saltado de Res" data-price="33.00">+</button>
+                </div>
+                <img src="carta/Tallarin Saltado de Res.jpeg" alt="Tallarin Saltado de Res">
+                <div>
+                    <h3>Tallarin Saltado de Res</h3>
+                    <p>33.00</p>
+                </div>
+            </div>
+        </div>
+        <!-- Postres -->
+        <h2 id="postres">POSTRES</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Panqueques con Manjar Blanco" data-price="23.00">+</button>
+                </div>
+                <img src="carta/Panqueques con Manjar Blanco.jpeg" alt="Panqueques con Manjar Blanco">
+                <div>
+                    <h3>Panqueques con Manjar Blanco</h3>
+                    <p>S/. 23.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Torta de Chocolate" data-price="15.00">+</button>
+                </div>
+                <img src="carta/Torta de Chocolate.jpeg" alt="Torta de Chocolate">
+                <div>
+                    <h3>Torta de Chocolate</h3>
+                    <p>S/. 15.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Torta de Lucuma con fudge" data-price="14.00">+</button>
+                </div>
+                <img src="carta/Torta de Lucuma con fudge.jpeg" alt="Torta de Lucuma con fudge">
+                <div>
+                    <h3>Torta de Lucuma con fudge</h3>
+                    <p>S/. 14.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Torta de pecanas con manjar" data-price="14.00">+</button>
+                </div>
+                <img src="carta/Torta de pecanas con manjar.jpg" alt="Torta de pecanas con manjar">
+                <div>
+                    <h3>Torta de pecanas con manjar</h3>
+                    <p>S/. 14.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Torta tres leches" data-price="14.00">+</button>
+                </div>
+                <img src="carta/Torta tres leches.jpeg" alt="Torta tres leches">
+                <div>
+                    <h3>Torta tres leches</h3>
+                    <p>S/. 14.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Cheescake de fresa" data-price="14.00">+</button>
+                </div>
+                <img src="carta/Cheescake de fresa.jpeg" alt="Cheescake de fresa">
+                <div>
+                    <h3>Cheescake de fresa</h3>
+                    <p>S/. 14.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Cheescake de maracuyá" data-price="14.00">+</button>
+                </div>
+                <img src="carta/heescake de maracuyá.jpg" alt="Cheescake de maracuyá">
+                <div>
+                    <h3>Cheescake de maracuyá</h3>
+                    <p>S/. 14.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Pie de Limón" data-price="14.00">+</button>
+                </div>
+                <img src="carta/Pie de Limón.jpeg" alt="Pie de Limón">
+                <div>
+                    <h3>Pie de Limón</h3>
+                    <p>S/. 14.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Pie de Maracuya" data-price="14.00">+</button>
+                </div>
+                <img src="carta/Pie de Maracuya.jpeg" alt="Pie de Maracuya">
+                <div>
+                    <h3>Pie de Maracuya</h3>
+                    <p>S/. 14.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Torta velvet" data-price="14.00">+</button>
+                </div>
+                <img src="carta/Torta velvet.jpg" alt="Torta velvet">
+                <div>
+                    <h3>Torta velvet</h3>
+                    <p>S/. 14.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Torta de Zanahoria" data-price="14.00">+</button>
+                </div>
+                <img src="carta/Torta de Zanahoria.jpeg" alt="Torta de Zanahoriar">
+                <div>
+                    <h3>Torta de Zanahoria</h3>
+                    <p>S/. 14.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Crema Volteada" data-price="14.00">+</button>
+                </div>
+                <img src="carta/Crema Volteada.jpeg" alt="Crema Volteada">
+                <div>
+                    <h3>Crema Volteada</h3>
+                    <p>S/. 14.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Torta de Galleta" data-price="14.00">+</button>
+                </div>
+                <img src="carta/Torta de Galleta.jpg" alt="Torta de Galleta">
+                <div>
+                    <h3>Torta de Galleta</h3>
+                    <p>S/. 14.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Torta Selva Negra" data-price="14.00">+</button>
+                </div>
+                <img src="carta/Torta Selva Negr.jpeg" alt="Torta Selva Negra">
+                <div>
+                    <h3>Torta Selva Negra</h3>
+                    <p>S/. 14.00</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="add-to-cart-btn">
+                    <button class="add-to-cart" data-name="Torta Oreo" data-price="14.00">+</button>
+                </div>
+                <img src="carta/Torta Oreo.jpg" alt="Torta Oreo">
+                <div>
+                    <h3>Torta Oreo</h3>
+                    <p>S/. 14.00</p>
+                </div>
+            </div>
+        </div>
+
+<!-- bebidas -->
+<h2 id="bebidas">BEBIDAS</h2>
+<div class="menu-grid">
+    <div class="menu-item">
+        <div class="add-to-cart-btn">
+            <button class="add-to-cart" data-name="Chicha Morada 1 Jarra" data-price="23.00">+</button>
+        </div>
+        <img src="carta/Chicha Morada 1 Jarra.jpeg" alt="Chicha Morada 1 Jarra">
+        <div>
+            <h3>Chicha Morada 1 Jarra</h3>
+            <p>S/. 23.00</p>
+        </div>
+    </div>
+    <div class="menu-item">
+        <div class="add-to-cart-btn">
+            <button class="add-to-cart" data-name="Limonada Frozen 1 Jarra" data-price="22.00">+</button>
+        </div>
+        <img src="carta/Limonada Frozen 1 Jarra.jpeg" alt="Limonada Frozen 1 Jarra">
+        <div>
+            <h3>Limonada Frozen 1 Jarra</h3>
+            <p>S/. 22.00</p>
+        </div>
+    </div>
+    <div class="menu-item">
+        <div class="add-to-cart-btn">
+            <button class="add-to-cart" data-name="Coca Cola, Inca Kola 1.5 Litros" data-price="12.00">+</button>
+        </div>
+        <img src="carta/Coca Cola, Inca Kola 1.5 Litros.jpeg" alt="Coca Cola, Inca Kola 1.5 Litros">
+        <div>
+            <h3>Coca Cola, Inca Kola 1.5 Litros</h3>
+            <p>S/. 12.00</p>
+        </div>
+    </div>
+    <div class="menu-item">
+        <div class="add-to-cart-btn">
+            <button class="add-to-cart" data-name="Coca cola Zero, Inca Kola, Sprite 600 ml" data-price="7.00">+</button>
+        </div>
+        <img src="carta/Coca cola Zero, Inca Kola, Sprite 600 ml.jpeg" alt="Coca cola Zero, Inca Kola, Sprite 600 ml">
+        <div>
+            <h3>Coca cola Zero, Inca Kola, Sprite 600 ml</h3>
+            <p>S/. 7.00</p>
+        </div>
+    </div>
+    <div class="menu-item">
+        <div class="add-to-cart-btn">
+            <button class="add-to-cart" data-name="Agua Mineral/ sin gas 500 ml" data-price="4.00">+</button>
+        </div>
+        <img src="carta/Agua Minera  sin gas 500 ml.jpeg" alt="Agua Mineral/ sin gas 500 ml">
+        <div>
+            <h3>Agua Mineral/ sin gas 500 ml</h3>
+            <p>S/. 4.00</p>
+        </div>
+    </div>
+</div>
+
+<!-- cocteles -->
+<h2 id="cocteles">CÓCTELES</h2>
+<div class="menu-grid">
+    <div class="menu-item">
+        <div class="add-to-cart-btn">
+            <button class="add-to-cart" data-name="Cuba Libre" data-price="18.00">+</button>
+        </div>
+        <img src="carta/Cuba Libre.jpeg" alt="Cuba Libre">
+        <div>
+            <h3>Cuba Libre</h3>
+            <p>S/. 18.00</p>
+        </div>
+    </div>
+    <div class="menu-item">
+        <div class="add-to-cart-btn">
+            <button class="add-to-cart" data-name="Mojito" data-price="18.00">+</button>
+        </div>
+        <img src="carta/Mojito.jpg" alt="Mojito">
+        <div>
+            <h3>Mojito</h3>
+            <p>S/. 18.00</p>
+        </div>
+    </div>
+    <div class="menu-item">
+        <div class="add-to-cart-btn">
+            <button class="add-to-cart" data-name="Chilcano de Pisco" data-price="18.00">+</button>
+        </div>
+        <img src="carta/Chilcano de Pisco.jpg" alt="Chilcano de Pisco">
+        <div>
+            <h3>Chilcano de Pisco</h3>
+            <p>S/. 18.00</p>
+        </div>
+    </div>
+    <div class="menu-item">
+        <div class="add-to-cart-btn">
+            <button class="add-to-cart" data-name="Margarita" data-price="18.00">+</button>
+        </div>
+        <img src="carta/Margarita.jpeg" alt="Margarita">
+        <div>
+            <h3>Margarita</h3>
+            <p>S/. 18.00</p>
+        </div>
+    </div>
+    <div class="menu-item">
+        <div class="add-to-cart-btn">
+            <button class="add-to-cart" data-name="Coctel de Algarrabina" data-price="18.00">+</button>
+        </div>
+        <img src="carta/Coctel de Algarrabina.jpg" alt="Coctel de Algarrabina">
+        <div>
+            <h3>Coctel de Algarrabina</h3>
+            <p>S/. 18.00</p>
+        </div>
+    </div>
+    <div class="menu-item">
+        <div class="add-to-cart-btn">
+            <button class="add-to-cart" data-name="Jarra de Pisco" data-price="25.00">+</button>
+        </div>
+        <img src="carta/Jarra de Pisco.jpg" alt="Jarra de Pisco">
+        <div>
+            <h3>Jarra de Pisco</h3>
+            <p>S/. 25.00</p>
+        </div>
+    </div>
+    <div class="menu-item">
+        <div class="add-to-cart-btn">
+            <button class="add-to-cart" data-name="Copa de Pisco" data-price="10.00">+</button>
+        </div>
+        <img src="carta/Copa de Pisco.jpeg" alt="Copa de Pisco">
+        <div>
+            <h3>Copa de Pisco</h3>
+            <p>S/. 10.00</p>
+        </div>
+    </div>
+    <div class="menu-item">
+        <div class="add-to-cart-btn">
+            <button class="add-to-cart" data-name="Pisco Sour" data-price="16.00">+</button>
+        </div>
+        <img src="carta/Pisco Sour.jpeg" alt="Pisco Sour">
+        <div>
+            <h3>Pisco Sour</h3>
+            <p>S/. 16.00</p>
+        </div>
+    </div>
+    <div class="menu-item">
+        <div class="add-to-cart-btn">
+            <button class="add-to-cart" data-name="Sangria Especial Jarra Grande" data-price="48.00">+</button>
+        </div>
+        <img src="carta/Sangria Especial Jarra Grande.jpg" alt="Sangria Especial Jarra Grande">
+        <div>
+            <h3>Sangria Especial Jarra Grande</h3>
+            <p>S/. 48.00</p>
+        </div>
+    </div>
+</div>
+
+
+    </div>
+        <!-- Continua agregando items en el mismo formato para el resto de las categorías... -->
+
+    </div>
+    <button id="cart-toggle">Carrito</button>
+<div class="cart-window">
+    <h2>Carrito de compras</h2>
+    <ul id="cart-items"></ul>
+    <p class="total">Total: S/. <span id="cart-total">0.00</span></p>
+    <button id="checkout">Finalizar compra</button>
+</div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+    const cart = [];
+    const cartWindow = document.querySelector('.cart-window');
+    const cartToggle = document.getElementById('cart-toggle');
+    
+    // Función para abrir y cerrar la ventana del carrito
+    const toggleCartWindow = () => {
+        if (cartWindow.style.display === 'block') {
+            cartWindow.style.display = 'none';
+        } else {
+            cartWindow.style.display = 'block';
+        }
+    };
+
+    // Evento para abrir y cerrar la ventana del carrito al hacer clic en el botón
+    cartToggle.addEventListener('click', toggleCartWindow);
+
+    // Función para actualizar el contenido del carrito
+    // Función para actualizar el contenido del carrito
+    const updateCart = () => {
+    const cartItems = document.getElementById('cart-items');
+    const cartTotal = document.getElementById('cart-total');
+    cartItems.innerHTML = '';
+    let total = 0;
+    cart.forEach(item => {
+        const li = document.createElement('li');
+        const quantityText = item.quantity > 1 ? ` x${item.quantity}` : '';
+        const price = parseFloat(item.price) * item.quantity;
+        li.innerHTML = `
+            <span>${item.name} - S/. ${price.toFixed(2)}</span>
+            <div class="quantity-controls">
+                <button class="quantity-control-btn subtract" data-name="${item.name}">-</button>
+                <span class="quantity">${item.quantity}</span>
+                <button class="quantity-control-btn add" data-name="${item.name}">+</button>
+            </div>
+        `;
+        cartItems.appendChild(li);
+        total += price;
+    });
+    cartTotal.textContent = total.toFixed(2);
+
+    // Manejar eventos de clic para los botones de suma y resta
+    cartItems.querySelectorAll('.quantity-control-btn').forEach(button => {
+        button.addEventListener('click', () => {
+            const name = button.getAttribute('data-name');
+            const operation = button.classList.contains('add') ? 'add' : 'subtract';
+            const item = cart.find(item => item.name === name);
+            if (item) {
+                if (operation === 'add') {
+                    item.quantity++;
+                } else {
+                    if (item.quantity > 1) {
+                        item.quantity--;
+                    } else {
+                        // Eliminar el artículo del carrito si la cantidad es 1
+                        const index = cart.indexOf(item);
+                        if (index !== -1) {
+                            cart.splice(index, 1);
+                        }
+                    }
+                }
+            }
+            updateCart();
+        });
+    });
+};
+
+    // Evento para añadir elementos al carrito
+    document.querySelectorAll('.add-to-cart').forEach(button => {
+        button.addEventListener('click', () => {
+            const name = button.getAttribute('data-name');
+            const price = button.getAttribute('data-price');
+            const existingItem = cart.find(item => item.name === name);
+            if (existingItem) {
+                existingItem.quantity++;
+            } else {
+                cart.push({ name, price, quantity: 1 });
+            }
+            updateCart();
+            cartWindow.style.display = 'block';
+        });
+    });
+
+    // Evento para finalizar la compra
+    document.getElementById('checkout').addEventListener('click', () => {
+        fetch('Carta.php', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(cart)
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.status === 'success') {
+                alert('Compra finalizada!');
+                cart.length = 0;
+                updateCart();
+                cartWindow.style.display = 'none';
+            } else {
+                alert('Ocurrió un error, por favor intente de nuevo.');
+            }
+        });
+    });
+});
+
+    </script>
+</body>
+<footer>
+    <!-- Pie de página -->
+    <div class="footer">
+        <div class="footer-contenedor"></div>
+        <!-- Logo en el pie de página -->
+        <img src="img/logo.png" alt="Logo" class="log">  
+            <div class="footer-row">          
+            <!-- Información de contacto -->
+                <div class="links-footer">
+                    <h3>Contactanos</h3>
+                        <a href="https://www.facebook.com/RestauranteSanIsidroIca">Facebook</a><br>
+                        <a href="https://wa.link/cfx17w">WhatsApp</a><br>
+                </div>
+
+                <div class="links-footer">
+                    <h3>Nosotros</h3>
+                        <a href="https://www.facebook.com/RestauranteSanIsidroIca">Mision</a><br>
+                        <a href="https://wa.link/cfx17w">Vision</a><br>
+                        <a href="https://wa.link/cfx17w">Politica de privacidad</a><br>
+                        <a href="https://wa.link/cfx17w">Recursos</a><br>
+                   
+                </div>
+             <!-- Horarios de atención -->
+                <div class="links-footer">
+                    <h3>Atención:</h3>
+                    <p>Lunes-Sabado: 10:00 am - 11:00 pm</p>
+                    <p>Domingo: 10:00 am - 9:00 pm</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>
